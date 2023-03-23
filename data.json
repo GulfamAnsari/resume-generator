@@ -1,0 +1,100 @@
+{
+    "name": "Gulfam Ansari",
+    "summary": "Senior Front End developer with 5+ years of experience designing and building responsive web design and mobile apps in the fin-tech and insurance industry. Proficient with CSS and JS Frameworks(ReactJs, NextJs, and Angular), with extensive knowledge of UX and user psychology.",
+    "logo": "",
+    "information_links": [
+        {
+            "email": "gulfamansari1515@gmail.com",
+            "phone": "9868471128",
+            "location": "Delhi, India",
+            "linkedin": "linkedin.com/in/gulfam-ansari-63a710127",
+            "github": "github.com/GulfamAnsari",
+            "website": "https://droidtechknow.com",
+            "medium": "medium.com/@gulfamansari1515"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Senior Frontend Developer",
+            "company": "Acko General Insurance",
+            "company_link": "https://www.acko.com/",
+            "location": "Bangalore, India",
+            "start_date": "December, 2021",
+            "end_date": "Present",
+            "about_company": "Acko is an insurance company that provides health insurance, auto insurance, and electronics insurance.",
+            "tasks": [
+                "Worked on Acko's customer-facing web app where I enabled new users to enrol their self in the system",
+                "Developed an internal dashboard to create new policy plans, add-ons, covers, etc. Also, the dashboard is responsible for any kind of endorsement."
+            ]
+        },
+        {
+            "role": "Frontend Developer",
+            "company": "Paytm",
+            "company_link": "https://www.paytm.com/",
+            "location": "Noida, India",
+            "start_date": "July, 2019",
+            "end_date": "December, 2021",
+            "about_company": "Paytm is a fin-tech company that caters to all your cash needs in a digital world along with shopping, travel booking, etc.",
+            "tasks": [
+                "Migrated the entire 24*7 support vertical codebase to ReactJs.",
+                "Developed and Maintained the support section for Android and iOS apps both as the code runs in Webviews.",
+                "Integrated the Freshworks chatbot in the Paytm App to handle user queries."
+            ]
+        },
+        {
+            "role": "Software Engineer",
+            "company": "Elucidata",
+            "company_link": "https://www.elucidata.io/",
+            "location": "Delhi, India",
+            "start_date": "June, 2017",
+            "end_date": "July, 2019",
+            "about_company": "Elucidata is a product-based company that builds software packages, provides customized solutions, and analyzes omics datasets to understand the molecular basis of cellular phenotypes.",
+            "tasks": [
+                "Worked on an application called Polly for data scientists to visualize large omics datasets.",
+                "Created common private NPM packages for internal usage of the developers to save time."
+            ]
+        },
+        {
+            "role": "Founder",
+            "company": "DroidTechKnow",
+            "company_link": "https://www.droidtechknow.com/",
+            "location": "Delhi, India",
+            "start_date": "May, 2017",
+            "end_date": "Present",
+            "about_company": "DroidTechKnow is a Blogging Website that provides tech-based articles to its readers.",
+            "tasks": [
+                "Developed this website from the scratch in JavaScript, MySQL, and PHP in 2017. Now I am getting around 30k organic traffic per month."
+            ]
+        }
+    ],
+    "education": {
+        "collage": "University School Of Information and Communication Technology",
+        "course": "Bachelor of Technology",
+        "stream": "Computer Science",
+        "location": "Delhi, India",
+        "year": "08/2013 - 05/2017"
+    },
+    "skills": [
+        { "name": "HTML", "rating": 5 },
+        { "name": "CSS, SCSS", "rating": 5 },
+        { "name": "JavaScript", "rating": 5 },
+        { "name": "ReactJs", "rating": 5 },
+        { "name": "Git", "rating": 5 },
+        { "name": "Data Structure and Algorithms", "rating": 4 },
+        { "name": "NextJs", "rating": 3 },
+        { "name": "Node.js/ Express.js", "rating": 3 },
+        { "name": "Angular", "rating": 2 },
+        { "name": "PHP", "rating": 2 },
+        { "name": "MySQL, MongoDB", "rating": 2 }
+    ],
+    "achievements": [
+        {
+            "name": "DroidTechKnow",
+            "description": "Own a technical youtube channel named DroidTechKnow in which I upload tech-related videos for a youtube audience. I have 7K subscribers with around 3M total views."
+        },
+        {
+            "name": "Medium Writer",
+            "description": "I am a writer and wrote many tech articles on Medium and freecodecamp(The most popular publication of Medium)"
+        }
+    ]
+}
