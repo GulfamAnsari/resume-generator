@@ -1,0 +1,130 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:Poppins
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: #f09548;
+    --text-color: #437f8b;
+    --secondary-color: rgb(79, 79, 79);
+    --bold: rgb(18, 17, 17);
+    --link-color: rgb(37, 36, 36);
+    --anchor-color: rgb(92, 92, 92);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--bold);
+    margin: 12px 0;
+}
+p {
+    color: var(--bold);
+    margin: 0;
+}
+
+body {
+    padding: 12px 16px;
+}
+
+.infoLinksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px 0;
+}
+
+.infoLinks {
+    color: var(--text-color);
+    padding: 0 8px;
+    border-left: var(--secondary-color) solid 2px;
+}
+
+.infoLinks:nth-child(1) {
+    border-left: none;
+    padding: 0 8px 0 0;
+}
+
+.infoLinks span {
+    color: var(--link-color)
+}
+
+.name {
+    color: var(--text-color);
+    margin: 0;
+}
+
+.position {
+    color: var(--bold);
+    margin: 0;
+    line-height: 1.3rem;
+}
+
+.summary, .experience {
+    margin: 48px 0 0 0;
+}
+.summaryHeading, .experienceHeading {
+    color: var(--text-color);
+    margin-bottom: 8px;
+    line-height: 1rem;
+}
+
+.summaryText {
+    margin: 8px 0;
+    color: var(--bold);
+
+}
+
+.hr {
+    margin: 12px 0;
+    background-color: var(--text-color);
+    height: 1px;
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.company {
+    width: 100%;
+    position: relative;
+    color: var(--secondary-color);
+    margin: 0 0 24px 0;
+}
+
+.company a {
+    text-decoration: none;
+    color: var(--anchor-color);
+}
+
+.date {
+    float: right;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.role {
+    margin: 0 0 6px 0;
+}
+
+.companyName {
+    margin: 6px 0;
+    line-height: 0.4rem;
+    color: var(--bold);
+}
+
+.company ul {
+    margin: 8px 0 0 0;
+}
+.company ul li {
+    color: var(--bold);
+}
+
+.location {
+    font-size: 0.8rem;
+    color: var(--text-color)
+}

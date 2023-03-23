@@ -1,16 +1,36 @@
 {
     "name": "Gulfam Ansari",
     "summary": "Senior Front End developer with 5+ years of experience designing and building responsive web design and mobile apps in the fin-tech and insurance industry. Proficient with CSS and JS Frameworks(ReactJs, NextJs, and Angular), with extensive knowledge of UX and user psychology.",
+    "position": "Senior Frontend Developer",
     "logo": "",
     "information_links": [
         {
-            "email": "gulfamansari1515@gmail.com",
-            "phone": "9868471128",
-            "location": "Delhi, India",
-            "linkedin": "linkedin.com/in/gulfam-ansari-63a710127",
-            "github": "github.com/GulfamAnsari",
-            "website": "https://droidtechknow.com",
-            "medium": "medium.com/@gulfamansari1515"
+            "link": "gulfamansari1515@gmail.com",
+            "icon": "fa-solid fa-envelope"
+        },
+        {
+            "link": "9868471128",
+            "icon": "fa fa-phone"
+        },
+        {
+            "link": "Delhi, India",
+            "icon": "fa fa-location-dot"
+        },
+        {
+            "link": "linkedin.com/in/gulfam-ansari-63a710127",
+            "icon": "fa-brands fa-linkedin"
+        },
+        {
+            "link": "github.com/GulfamAnsari",
+            "icon": "fa-brands fa-github"
+        },
+        {
+            "link": "https://droidtechknow.com",
+            "icon": "fa-brands fa-internet-explorer"
+        },
+        {
+            "link": "medium.com/@gulfamansari1515",
+            "icon": "fa-brands fa-medium"
         }
     ],
     "work_experience": [
