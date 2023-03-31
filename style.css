@@ -2,7 +2,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family:Poppins
+    font-family: Poppins
 }
 
 html {
@@ -18,10 +18,16 @@ html {
     --anchor-color: rgb(92, 92, 92);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--bold);
     margin: 12px 0;
 }
+
 p {
     color: var(--bold);
     margin: 0;
@@ -31,25 +37,48 @@ body {
     padding: 12px 16px;
 }
 
+.resume_header {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.heading {
+    flex-direction: column;
+}
+
 .infoLinksContainer {
     display: flex;
     flex-wrap: wrap;
     margin: 8px 0;
+    font-size: 0.6rem;
+    width: 40%;
+    flex-direction: column;
 }
 
 .infoLinks {
     color: var(--text-color);
     padding: 0 8px;
-    border-left: var(--secondary-color) solid 2px;
+    display: flex;
+    justify-content: end;
 }
 
-.infoLinks:nth-child(1) {
+.infoLinks a {
+    text-decoration: none;
+}
+
+/* .infoLinks:nth-child(1) {
     border-left: none;
     padding: 0 8px 0 0;
-}
+} */
 
 .infoLinks span {
     color: var(--link-color)
+}
+
+.infoLinks i {
+    color: var(--text-color);
 }
 
 .name {
@@ -63,19 +92,33 @@ body {
     line-height: 1.3rem;
 }
 
-.summary, .experience {
+.summary {
+    margin: 18px 0 0 0;
+}
+
+.experience {
     margin: 48px 0 0 0;
 }
-.summaryHeading, .experienceHeading {
+
+.educationContainer,
+.skills {
+    margin: 24px 0 0 0;
+}
+
+.summaryHeading,
+.experienceHeading,
+.educationHeading,
+.skillsHeading {
     color: var(--text-color);
     margin-bottom: 8px;
-    line-height: 1rem;
+    line-height: 0.8rem;
+    font-size: 1.4rem;
 }
 
 .summaryText {
     margin: 8px 0;
     color: var(--bold);
-
+    font-size: 0.9rem;
 }
 
 .hr {
@@ -84,34 +127,42 @@ body {
     height: 1px;
 }
 
-.companies {
+.companies,
+.school,
+.skill {
     display: flex;
     flex-wrap: wrap;
 }
 
-.company {
+.company,
+.education {
     width: 100%;
     position: relative;
     color: var(--secondary-color);
     margin: 0 0 24px 0;
 }
 
-.company a {
+.company a,
+.education a {
     text-decoration: none;
     color: var(--anchor-color);
+    font-size: 0.9rem;
 }
 
 .date {
     float: right;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: var(--text-color);
 }
 
-.role {
+.role,
+.course {
     margin: 0 0 6px 0;
+    font-size: 1.1rem;
 }
 
-.companyName {
+.companyName,
+.collage {
     margin: 6px 0;
     line-height: 0.4rem;
     color: var(--bold);
@@ -120,11 +171,43 @@ body {
 .company ul {
     margin: 8px 0 0 0;
 }
+
 .company ul li {
     color: var(--bold);
+    font-size: 0.7rem;
 }
 
 .location {
     font-size: 0.8rem;
-    color: var(--text-color)
+    color: var(--text-color);
+    font-size: 0.7rem;
+}
+
+.skill {
+    gap: 4%;
+}
+
+.skillCapsules {
+    display: flex;
+    width: 48%;
+    justify-content: space-between;
+}
+.skillName {
+    font-size: 0.8rem;
+    width: calc(100% - 200px);
+}
+.progress {
+    border: solid 1px var(--text-color);
+    width: 200px;
+    height: 0.8rem;
+    margin: 0.2rem 0 0 0;
+    display: flex;
+    border-radius: 10px;
+}
+
+.progress i {
+    height: 0.8rem;
+    display: block;
+    border-radius: 10px;
+    margin: -0.05rem 0 0 0;
 }

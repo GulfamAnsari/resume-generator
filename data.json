@@ -6,31 +6,41 @@
     "information_links": [
         {
             "link": "gulfamansari1515@gmail.com",
-            "icon": "fa-solid fa-envelope"
+            "icon": "fa-solid fa-envelope",
+            "label": "gulfamansari1515@gmail.com",
+            "type": "email"
         },
         {
-            "link": "9868471128",
-            "icon": "fa fa-phone"
+            "link": "+919868471128",
+            "icon": "fa fa-phone",
+            "label": "+919868471128",
+            "type": "phone"
         },
         {
-            "link": "Delhi, India",
-            "icon": "fa fa-location-dot"
+            "link": "https://www.google.com/maps/place/Delhi/@28.6440836,77.0932313",
+            "icon": "fa fa-location-dot",
+            "label": "Delhi, India",
+            "type": "location"
         },
         {
-            "link": "linkedin.com/in/gulfam-ansari-63a710127",
-            "icon": "fa-brands fa-linkedin"
+            "link": "https://linkedin.com/in/gulfam-ansari-63a710127",
+            "icon": "fa-brands fa-linkedin",
+            "label": "Linkedin"
         },
         {
-            "link": "github.com/GulfamAnsari",
-            "icon": "fa-brands fa-github"
+            "link": "https://github.com/GulfamAnsari",
+            "icon": "fa-brands fa-github",
+            "label": "Github"
         },
         {
             "link": "https://droidtechknow.com",
-            "icon": "fa-brands fa-internet-explorer"
+            "icon": "fa-brands fa-internet-explorer",
+            "label": "droidtechknow.com"
         },
         {
-            "link": "medium.com/@gulfamansari1515",
-            "icon": "fa-brands fa-medium"
+            "link": "https://medium.com/@gulfamansari1515",
+            "icon": "fa-brands fa-medium",
+            "label": "Medium"
         }
     ],
     "work_experience": [
@@ -87,25 +97,29 @@
             ]
         }
     ],
-    "education": {
-        "collage": "University School Of Information and Communication Technology",
-        "course": "Bachelor of Technology",
-        "stream": "Computer Science",
-        "location": "Delhi, India",
-        "year": "08/2013 - 05/2017"
-    },
+    "educations": [
+        {
+            "collage": "University School Of Information and Communication Technology",
+            "course": "Bachelor of Technology",
+            "stream": "Computer Science",
+            "location": "Delhi, India",
+            "year": "08/2013 - 05/2017"
+        }
+    ],
     "skills": [
         { "name": "HTML", "rating": 5 },
-        { "name": "CSS, SCSS", "rating": 5 },
-        { "name": "JavaScript", "rating": 5 },
-        { "name": "ReactJs", "rating": 5 },
-        { "name": "Git", "rating": 5 },
-        { "name": "Data Structure and Algorithms", "rating": 4 },
         { "name": "NextJs", "rating": 3 },
-        { "name": "Node.js/ Express.js", "rating": 3 },
+        { "name": "CSS, SCSS", "rating": 5 },
+        { "name": "Node.js, Express.js", "rating": 3 },
+        { "name": "JavaScript", "rating": 5 },
         { "name": "Angular", "rating": 2 },
+        { "name": "ReactJs", "rating": 5 },
         { "name": "PHP", "rating": 2 },
-        { "name": "MySQL, MongoDB", "rating": 2 }
+        { "name": "Git", "rating": 5 },
+        { "name": "MySQL, MongoDB", "rating": 2 },
+        { "name": "Data Structure & Algorithms", "rating": 4 }
+        
+        
     ],
     "achievements": [
         {
@@ -116,5 +130,6 @@
             "name": "Medium Writer",
             "description": "I am a writer and wrote many tech articles on Medium and freecodecamp(The most popular publication of Medium)"
         }
-    ]
+    ],
+    "toole-and-library": ["Yeoman (Code Generator)", "PotlyJs", "Docker", "Gulp", "Npm", "Webpack", "Jasmine", "Firebase", "Wordpress"]
 }

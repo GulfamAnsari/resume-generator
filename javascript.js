@@ -11,18 +11,28 @@ const RESUME = () => {
         setResumeData(data);
     }
 
+    const getHref = (type) => {
+        return {
+            email: "mailto:",
+            phone: "tel:",
+            link: ""
+        }[type] || ""
+    }
+
     return resumeData ? <>
-        <header>
-            <h1 className="name">{resumeData.name}</h1>
-            <h2 className="position">{resumeData.position}</h2>
+        <div className="resume_header">
+            <div className="heading">
+                <h1 className="name">{resumeData.name}</h1>
+                <h2 className="position">{resumeData.position}</h2>
+            </div>
             <div className="infoLinksContainer">
                 {
                     resumeData.information_links.map((links) => {
-                        return <div className="infoLinks"><i className={links.icon}></i><span style={{ margin: "0 0 0 6px"}}>{links.link}</span></div>
+                        return <div className="infoLinks"><a href={getHref(links.type) + links.link} target="_blank"><span>{links.label}<i className={links.icon} style={{ margin: "0 0 0 8px"}}></i></span></a></div>
                     })
                 }
             </div>
-        </header>
+        </div>
         <section>
             <div className="summary">
                 <h2 className="summaryHeading">SUMMARY</h2>
@@ -48,6 +58,37 @@ const RESUME = () => {
                                         })
                                     }
                                 </ul>
+                            </div>
+                        })
+                    }
+                </div>
+                
+            </div>
+            <div className="educationContainer">
+                <h2 className="educationHeading">EDUCATION</h2>
+                <div className="hr"></div>
+                <div className="school">
+                    {
+                        resumeData.educations.map((education) => {
+                            return <div className="education">
+                                <div className="date">{education.year}</div>
+                                <h3 className="course">{education.course}</h3>
+                                <p className="collage"><a href={education.collage}>{education.collage}</a></p>
+                                <p className="location">{education.location}</p>
+                            </div>
+                        })
+                    }
+                </div>
+            </div>
+            <div className="skills">
+                <h2 className="skillsHeading">SKILLS</h2>
+                <div className="hr"></div>
+                <div className="skill">
+                    {
+                        resumeData.skills.map((skill) => {
+                            return <div className="skillCapsules">
+                                <span className="skillName">{skill.name}</span>
+                                <span className="progress"><i style={{ background: "#437f8b", width: skill.rating * 40 }}></i></span>
                             </div>
                         })
                     }
