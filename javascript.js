@@ -88,7 +88,7 @@ const RESUME = () => {
                         resumeData.skills.map((skill) => {
                             return <div className="skillCapsules">
                                 <span className="skillName">{skill.name}</span>
-                                <span className="progress"><i style={{ background: "#437f8b", width: skill.rating * 40 }}></i></span>
+                                <span className="progress"><i style={{ background: "#437f8b", width: skill.rating * 20 + "%" }}></i></span>
                             </div>
                         })
                     }
