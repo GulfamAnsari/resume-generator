@@ -28,7 +28,7 @@ const RESUME = () => {
             <div className="infoLinksContainer">
                 {
                     resumeData.information_links.map((links) => {
-                        return <div className="infoLinks"><a href={getHref(links.type) + links.link} target="_blank"><span>{links.label}<i className={links.icon} style={{ margin: "0 0 0 8px"}}></i></span></a></div>
+                        return <div className="infoLinks"><a href={getHref(links.type) + links.link} target="_blank"><span>{links.label}<i className={links.icon} style={{ margin: "0 0 0 8px" }}></i></span></a></div>
                     })
                 }
             </div>
@@ -50,7 +50,7 @@ const RESUME = () => {
                                 <h3 className="role">{exp.role}</h3>
                                 <p className="companyName"><a href={exp.company_link}>{exp.company}</a></p>
                                 <p className="location">{exp.location}</p>
-                                
+
                                 <ul>
                                     {
                                         exp.tasks.map((task) => {
@@ -62,7 +62,7 @@ const RESUME = () => {
                         })
                     }
                 </div>
-                
+
             </div>
             <div className="educationContainer">
                 <h2 className="educationHeading">EDUCATION</h2>
@@ -86,16 +86,19 @@ const RESUME = () => {
                 <div className="skill">
                     {
                         resumeData.skills.map((skill) => {
-                            return <div className="skillCapsules">
-                                <span className="skillName">{skill.name}</span>
-                                <span className="progress"><i style={{ background: "#437f8b", width: skill.rating * 20 + "%" }}></i></span>
+                            return <div className="skillContainer">
+                                { skill.logo && <img src={"./images/" + skill.logo } width="20px" height="20px" style={{ margin: "auto" }} /> }
+                                <div className="skillCapsules">
+                                    <span className="skillName">{skill.name}</span>
+                                    <span className="progress"><i style={{ background: "#437f8b", width: skill.rating * 20 + "%" }}></i></span>
+                                </div>
                             </div>
                         })
                     }
                 </div>
             </div>
         </section>
-    </>: null;
+    </> : null;
 }
 
 

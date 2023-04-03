@@ -187,12 +187,18 @@ body {
     gap: 4%;
 }
 
+.skillContainer {
+    width: 48%;
+    display: flex;
+    gap: 2%;
+}
+
 .skillCapsules {
     display: flex;
-    width: 48%;
     justify-content: space-between;
     margin: 0 0 10px 0;
     flex-direction: column;
+    width: 100%;
 }
 .skillName {
     font-size: 0.8rem;
