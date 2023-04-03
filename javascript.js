@@ -87,11 +87,25 @@ const RESUME = () => {
                     {
                         resumeData.skills.map((skill) => {
                             return <div className="skillContainer">
-                                { skill.logo && <img src={"./images/" + skill.logo } width="20px" height="20px" style={{ margin: "auto" }} /> }
+                                {skill.logo && <img src={"./images/" + skill.logo} width="20px" height="20px" style={{ margin: "auto" }} />}
                                 <div className="skillCapsules">
                                     <span className="skillName">{skill.name}</span>
                                     <span className="progress"><i style={{ background: "#437f8b", width: skill.rating * 20 + "%" }}></i></span>
                                 </div>
+                            </div>
+                        })
+                    }
+                </div>
+            </div>
+            <div className="achievements">
+                <h2 className="achievementsHeading">ACHIEVEMENTS</h2>
+                <div className="hr"></div>
+                <div className="achievement">
+                    {
+                        resumeData.achievements.map((achieve) => {
+                            return <div className="achievementsContainer">
+                                    <h4 className="achievementName">{achieve.name}</h4>
+                                    <p className="achievementsDes">{achieve.description}</p>
                             </div>
                         })
                     }
