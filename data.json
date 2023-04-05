@@ -108,16 +108,16 @@
     ],
     "skills": [
         { "name": "HTML / HTML5", "rating": 5, "logo": "html-logo.png" },
-        { "name": "NextJs", "rating": 3, "logo": "nextjs-logo.png" },
         { "name": "CSS / CSS3 / SCSS", "rating": 5, "logo": "css-logo.png" },
-        { "name": "Node.js / Express.js", "rating": 3, "logo": "node-js-logo.png" },
         { "name": "JavaScript", "rating": 5, "logo": "javascript-logo.svg" },
-        { "name": "Angular", "rating": 2, "logo": "angularJS-logo.svg" },
         { "name": "ReactJs", "rating": 5, "logo": "react-logo.png" },
-        { "name": "PHP", "rating": 2, "logo": "php-logo.png" },
         { "name": "Git", "rating": 5, "logo": "git-logo.png" },
-        { "name": "MySQL", "rating": 2, "logo": "mysql-logo.png" },
         { "name": "Data Structure & Algorithms", "rating": 4, "logo": "dsa-logo.svg" },
+        { "name": "NextJs", "rating": 3, "logo": "nextjs-logo.png" },
+        { "name": "Node.js / Express.js", "rating": 3, "logo": "node-js-logo.png" },
+        { "name": "Angular", "rating": 2, "logo": "angularJS-logo.svg" },
+        { "name": "PHP", "rating": 2, "logo": "php-logo.png" },
+        { "name": "MySQL", "rating": 2, "logo": "mysql-logo.png" },
         { "name": "MongoDB", "rating": 2, "logo": "mongodb-icon.png" }
     ],
     "achievements": [
