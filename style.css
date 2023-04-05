@@ -105,7 +105,7 @@ body {
 .skills {
     margin: 16px 0 0 0;
 }
-.achievements {
+.achievements, .tools-and-library {
     margin: 24px 0 0 0;
 }
 
@@ -113,7 +113,7 @@ body {
 .experienceHeading,
 .educationHeading,
 .skillsHeading,
-.achievementsHeading {
+.achievementsHeading, .toolsHeading {
     color: var(--text-color);
     margin-bottom: 8px;
     line-height: 0.8rem;
@@ -135,7 +135,7 @@ body {
 
 .companies,
 .school,
-.skill, .achievement {
+.skill, .achievement, .toolsBox {
     display: flex;
     flex-wrap: wrap;
 }
@@ -235,4 +235,14 @@ body {
 .achievementsDes {
     font-size: 0.75rem;
     line-height: 0.9rem;
+}
+
+.tAndL {
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    background: #437f8b;
+    margin: 0 8px 6px 0;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 18px;
 }

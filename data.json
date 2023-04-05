@@ -130,5 +130,5 @@
             "description": "I am a writer and wrote many tech articles on Medium and freecodecamp(The most popular publication of Medium)"
         }
     ],
-    "toole-and-library": ["Yeoman (Code Generator)", "PotlyJs", "Docker", "Gulp", "Npm", "Webpack", "Jasmine", "Firebase", "Wordpress"]
+    "toole_and_libraries": ["Yeoman (Code Generator)", "PotlyJs", "Docker", "Gulp", "Npm", "Webpack", "Jasmine", "Firebase", "Wordpress"]
 }

@@ -1,5 +1,6 @@
 const RESUME = () => {
     const [resumeData, setResumeData] = React.useState(null);
+    const [template, setTemplate] = React.useState(localStorage.getItem("template") || "basic");
 
     React.useEffect(async () => {
         await getData();
@@ -111,6 +112,17 @@ const RESUME = () => {
                     }
                 </div>
             </div>
+            <div className="tools-and-library">
+                <h2 className="toolsHeading">TOOLS AND LIBRARIES</h2>
+                <div className="hr"></div>
+                <div className="toolsBox">
+                    {
+                        resumeData.toole_and_libraries.map((tAndL) => {
+                            return <span className="tAndL">{tAndL}</span>
+                        })
+                    }
+                </div>
+            </div>
         </section>
     </> : null;
 }
@@ -118,4 +130,8 @@ const RESUME = () => {
 
 ReactDOM.render(<RESUME />, document.getElementById('react-app'));
 
+
+const STYLE = {
+
+}
 
