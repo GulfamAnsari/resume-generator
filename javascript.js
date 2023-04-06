@@ -1,6 +1,6 @@
 const RESUME = () => {
     const [resumeData, setResumeData] = React.useState(null);
-    const [template, setTemplate] = React.useState(localStorage.getItem("template") || "modern");
+    const [template, setTemplate] = React.useState(localStorage.getItem("template") || "basic");
 
     React.useEffect(async () => {
         await getData();
@@ -141,15 +141,15 @@ const RESUME = () => {
                     }
                 </div>
             </div>
-           
+
             <section className="__MODERN_section">
                 <div className="__MODERN_left_section">
-                <div className="summary">
+                    <div className="summary">
                         <h2 className="summaryHeading">SUMMARY</h2>
                         <div className="hr"></div>
                         <p className="summaryText">{resumeData.summary}</p>
                     </div>
-                    <div className="experience" style={{ margin: "16px 0 0 0"}}>
+                    <div className="experience" style={{ margin: "16px 0 0 0" }}>
                         <h2 className="experienceHeading">WORK EXPERIENCE</h2>
                         <div className="hr"></div>
                         <div className="companies">
@@ -183,7 +183,7 @@ const RESUME = () => {
                                     return <div className="education">
                                         <div className="date">{education.year}</div>
                                         <h3 className="course">{education.course}</h3>
-                                        <p className="collage" style={{ lineHeight: "1.1rem"}}>{education.collage}</p>
+                                        <p className="collage" style={{ lineHeight: "1.1rem" }}>{education.collage}</p>
                                         <p className="location">{education.location}</p>
                                     </div>
                                 })
@@ -192,7 +192,7 @@ const RESUME = () => {
                     </div>
                 </div>
                 <div className="__MODERN_right_section">
-                    <div className="skills" style={{ margin: "0"}}>
+                    <div className="skills" style={{ margin: "0" }}>
                         <h2 className="skillsHeading">SKILLS</h2>
                         <div className="hr"></div>
                         <div className="skill">
@@ -245,14 +245,20 @@ const RESUME = () => {
         }[type];
     }
 
-    return resumeData ? getResume(template) : null;
+    return (
+        <>
+            {resumeData ? <div className="zima">{getResume(template)}</div> : null}
+        </>
+    );
 }
 
 
 ReactDOM.render(<RESUME />, document.getElementById('react-app'));
 
 
-const STYLE = {
+const CreatePDFfromHTML = () => {
+    var doc = new jsPDF();
+    doc.fromHTML($('.zima').get(0));
 
+    doc.save('Generated.pdf');
 }
-
