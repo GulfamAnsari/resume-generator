@@ -108,7 +108,7 @@
       "course": "Bachelor of Technology",
       "stream": "Computer Science",
       "location": "Delhi, India",
-      "year": "08/2013 - 05/2017"
+      "year": "August, 2013 - May, 2017"
     }
   ],
   "skills": {
@@ -155,16 +155,20 @@
       "company": "Paytm",
       "dated": "Sep, 2019 - Dec, 2021",
       "description": "I was a member of the Paytm 24/7 Help vertical team, where I contributed to the development of the Paytm help support system for end customers on both iOS and Android platforms"
+    },
+    {
+      "name": "Tech Blogging platform",
+      "company": "Droidtechknow",
+      "dated": "June, 2017 - Present",
+      "description": "Developed my own tech blogging platform to publish tech articles, commencing in 2017. Authored numerous engaging tech articles aimed at providing valuable insights and knowledge to the audience."
     }
   ],
   "achievements": [
     {
-      "name": "DroidTechKnow",
-      "description": "Founder and content creator for droidtechknow.com, a thriving technical YouTube channel. Delivering engaging tech-related content, the channel boasts a subscriber base of 7K and has garnered over 3 million total views."
-    },
-    {
-      "name": "Medium Writer",
-      "description": "I am a blogger and contributed various tech articles featured on prominent platforms such as Medium and FreeCodeCamp, the most popular publication on Medium"
+      "name": "Rockstar award",
+      "company": "Paytm",
+      "date": "July, 2020",
+      "description": ""
     }
   ],
   "toole_and_libraries": [

@@ -243,7 +243,7 @@ const RESUME = () => {
             <div className="advance resume_header">
                 <div className="heading">
                     <h1 className="name">{resumeData.name}</h1>
-                    <h2 className="position">{resumeData.position}</h2>
+                    <h3 className="position">{resumeData.position}</h3>
                 </div>
                 <div className="infoLinksContainer">
                     {
@@ -254,14 +254,14 @@ const RESUME = () => {
                 </div>
             </div>
 
-            <section className="__MODERN_section">
+            <section className="__MODERN_section advance_section">
                 <div className="__MODERN_left_section">
                     <div className="summary">
                         <h2 className="summaryHeading">SUMMARY</h2>
                         <div className="hr"></div>
                         <p className="summaryText">{resumeData.summary}</p>
                     </div>
-                    <div className="experience" style={{ margin: "16px 0 0 0" }}>
+                    <div className="experience">
                         <h2 className="experienceHeading">WORK EXPERIENCE</h2>
                         <div className="hr"></div>
                         <div className="companies">
@@ -286,41 +286,27 @@ const RESUME = () => {
                         </div>
 
                     </div>
-                    <div className="educationContainer">
-                        <h2 className="educationHeading">EDUCATION</h2>
-                        <div className="hr"></div>
-                        <div className="school">
-                            {
-                                resumeData.educations.map((education) => {
-                                    return <div className="education">
-                                        <div className="date">{education.year}</div>
-                                        <h3 className="course">{education.course}</h3>
-                                        <p className="collage" style={{ lineHeight: "1.1rem", margin: 0 }}>{education.collage}</p>
-                                        <p className="location">{education.location}</p>
-                                    </div>
-                                })
-                            }
-                        </div>
-                    </div>
+                   
                 </div>
                 <div className="__MODERN_right_section">
                     <div className="skills" style={{ margin: "0" }}>
                         <h2 className="skillsHeading">SKILLS</h2>
                         <div className="hr"></div>
-                        <div className="advanceskill">
-                            <h4 className="achievementName">Technical skill</h4>
-                            {
+                        {
                                 resumeData.skills.techskills.map((skill) => {
                                     return <span className="advanceskillContainer">{skill.name}</span>
                                 })
                             }
+                        {/* <div className="advanceskill">
+                            <h4 className="achievementName">Technical skill</h4>
+                           
                             <h4 className="achievementName">Soft skills</h4>
                             {
                                 resumeData.skills.softskills.map((skill) => {
                                     return <span className="advanceskillContainer">{skill.name}</span>
                                 })
                             }
-                        </div>
+                        </div> */}
                     </div>
                     <div className="achievements">
                         <h2 className="achievementsHeading">PROJECTS</h2>
@@ -337,15 +323,32 @@ const RESUME = () => {
                             }
                         </div>
                     </div>
+                    <div className="educationContainer">
+                        <h2 className="educationHeading">EDUCATION</h2>
+                        <div className="hr"></div>
+                        <div className="school">
+                            {
+                                resumeData.educations.map((education) => {
+                                    return <div className="education">
+                                        <div className="date">{education.year}</div>
+                                        <h3 className="course">{education.course}</h3>
+                                        <p className="collage" style={{ lineHeight: "1.1rem", margin: 0, fontSize: '12px' }}>{education.collage}</p>
+                                        <p className="location">{education.location}</p>
+                                    </div>
+                                })
+                            }
+                        </div>
+                    </div>
                     <div className="achievements">
-                        <h2 className="achievementsHeading">ACHIEVEMENTS</h2>
+                        <h2 className="achievementsHeading">AWARDS</h2>
                         <div className="hr" style={{ margin: 0}}></div>
                         <div className="achievement">
                             {
                                 resumeData.achievements.map((achieve) => {
                                     return <div className="achievementsContainer">
                                         <h4 className="achievementName">{achieve.name}</h4>
-                                        <p className="achievementsDes">{achieve.description}</p>
+                                        <p className="achievementsDes">{achieve.company}</p>
+                                        <p className="location">{achieve.date}</p>
                                     </div>
                                 })
                             }

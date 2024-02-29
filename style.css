@@ -101,15 +101,15 @@ body {
 }
 
 .experience {
-    margin: 24px 0 0 0;
+    margin: 16px 0 0 0;
 }
 
 .educationContainer,
 .skills {
-    margin: 16px 0 0 0;
+    margin: 12px 0 0 0;
 }
 .achievements, .tools-and-library {
-    margin: 16px 0 0 0;
+    margin: 12px 0 0 0;
 }
 
 .summaryHeading,
@@ -129,7 +129,7 @@ body {
 .summaryText {
     margin: 6px 0 0 0;
     color: var(--bold);
-    font-size: 0.8rem;
+    font-size: 12px;
     line-height: 1.1rem;
 }
 
@@ -210,7 +210,7 @@ body {
 
 .date {
     float: right;
-    font-size: 0.7rem;
+    font-size:12px;
     color: var(--text-color);
 }
 
@@ -234,16 +234,15 @@ body {
 
 .company ul li {
     color: var(--bold);
-    font-size: 0.7rem;
+    font-size: 12px;
     /* font-style: italic; */
-    line-height: 0.9rem;
+    line-height: 1rem;
     margin: 2px 0;
 }
 
 .location {
-    font-size: 0.8rem;
     color: var(--anchor-color);
-    font-size: 0.7rem;
+    font-size: 12px;
 }
 
 .skill {
@@ -296,7 +295,7 @@ body {
 }
 
 .achievementsDes {
-    font-size: 0.75rem;
+    font-size: 12px;
     line-height: 1.1rem;
     /* font-style: italic; */
 }
@@ -389,9 +388,17 @@ body {
 
 .advance .infoLinks {
     padding: 0 0 0 8px;
-    font-size: 0.75rem;
+    font-size: 12px;
 }
 
 .advance .infoLinks:first-child {
     padding: 0;
+}
+
+.advance_section .experience,
+.advance_section .educationContainer,
+.advance_section .skills,
+.advance_section .achievements,
+.advance_section .tools-and-library {
+    margin: 12px 0 0 0;
 }
