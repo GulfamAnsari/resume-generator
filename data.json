@@ -1,134 +1,182 @@
 {
-    "name": "Gulfam Ansari",
-    "summary": "Senior Front End developer with 5+ years of experience designing and building responsive web design and mobile apps in the fin-tech and insurance industry. Proficient with CSS and JS Frameworks(ReactJs, NextJs, and Angular), with extensive knowledge of UX and user psychology.",
-    "position": "Senior Frontend Developer",
-    "logo": "",
-    "information_links": [
-        {
-            "link": "gulfamansari1515@gmail.com",
-            "icon": "fa-solid fa-envelope",
-            "label": "gulfamansari1515@gmail.com",
-            "type": "email"
-        },
-        {
-            "link": "+919868471128",
-            "icon": "fa fa-phone",
-            "label": "+919868471128",
-            "type": "phone"
-        },
-        {
-            "link": "https://www.google.com/maps/place/Delhi/@28.6440836,77.0932313",
-            "icon": "fa fa-location-dot",
-            "label": "Delhi, India",
-            "type": "location"
-        },
-        {
-            "link": "https://linkedin.com/in/gulfam-ansari-63a710127",
-            "icon": "fa-brands fa-linkedin",
-            "label": "Linkedin"
-        },
-        {
-            "link": "https://github.com/GulfamAnsari",
-            "icon": "fa-brands fa-github",
-            "label": "Github"
-        },
-        {
-            "link": "https://droidtechknow.com",
-            "icon": "fa-brands fa-internet-explorer",
-            "label": "droidtechknow.com"
-        },
-        {
-            "link": "https://medium.com/@gulfamansari1515",
-            "icon": "fa-brands fa-medium",
-            "label": "Medium"
-        }
+  "name": "Gulfam Ansari",
+  "summary": "I have over 6 years of experience in designing and building tech products and have extensive knowledge of UI/UX and user psychology. I’m now looking to leverage my expertise to work on challenging problems as a Senior Software Engineer.",
+  "position": "Senior Software Developer",
+  "logo": "",
+  "information_links": [
+    {
+      "link": "gulfamansari1515@gmail.com",
+      "icon": "fa-solid fa-envelope",
+      "label": "gulfamansari1515@gmail.com",
+      "type": "email"
+    },
+    {
+      "link": "+919868471128",
+      "icon": "fa fa-phone",
+      "label": "+919868471128",
+      "type": "phone"
+    },
+    {
+      "link": "https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9539454,77.4657857,11z/",
+      "icon": "fa fa-location-dot",
+      "label": "Bengaluru, India",
+      "type": "location"
+    },
+    {
+      "link": "https://linkedin.com/in/gulfam-ansari-63a710127",
+      "icon": "fa-brands fa-linkedin",
+      "label": "Linkedin"
+    },
+    {
+      "link": "https://github.com/GulfamAnsari",
+      "icon": "fa-brands fa-github",
+      "label": "Github"
+    },
+    {
+      "link": "https://droidtechknow.com",
+      "icon": "fa-brands fa-internet-explorer",
+      "label": "droidtechknow.com"
+    },
+    {
+      "link": "https://medium.com/@gulfamansari1515",
+      "icon": "fa-brands fa-medium",
+      "label": "Medium"
+    }
+  ],
+  "work_experience": [
+    {
+      "role": "Senior Software Developer",
+      "company": "Acko General Insurance",
+      "company_link": "https://www.acko.com/",
+      "location": "Bangalore, India",
+      "start_date": "December, 2021",
+      "end_date": "Present",
+      "about_company": "Acko is an insurance company that provides health insurance, auto insurance, and electronics insurance.",
+      "tasks": [
+        "Contributed to the development of Acko's customer-facing mobile application, leveraging my expertise in enabling new users to seamlessly enroll themselves in the system.",
+        "Designed and implemented the entire ABHA (Ayushman Bharat Health Account) flow within the Acko app, enabling end users to seamlessly create their ABHA ID. Developed and Designed the front-end architecture of a highly-functional internal dashboard that streamlined the process of creating new policy plans, add-on covers, etc.",
+        "Mentored junior engineers and conducted code reviews to maintain high coding standards and ensure code quality."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Paytm",
+      "company_link": "https://www.paytm.com/",
+      "location": "Noida, India",
+      "start_date": "July, 2019",
+      "end_date": "December, 2021",
+      "about_company": "Paytm is a fin-tech company that caters to all your cash needs in a digital world along with shopping, travel booking, etc.",
+      "tasks": [
+        "Migrated the entire codebase of 24*7 support vertical from native code(Android/iOS) to a common ReactJs codebase.",
+        "Integrate and Enabled Freshworks ChatBOT for Customer support for all business units of Paytm including Paytm Payments Bank, UPI, Wallet, Recharge & Utilities. Collaborated closely with cross-functional teams to identify key requirements and ensure the support section met the needs of all stakeholders.",
+        "Streamlined the localization process by implementing automation which reduced the need for manual operational effort.",
+        "Optimized the performance of the support section vertical in the Paytm app by leveraging the power of the Chrome Lighthouse tool. Identified and resolved all performance-related issues identified by the Lighthouse tool, including removing unused code and loading React components asynchronously."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Elucidata",
+      "company_link": "https://www.elucidata.io/",
+      "location": "Delhi, India",
+      "start_date": "June, 2017",
+      "end_date": "July, 2019",
+      "about_company": "Elucidata is a product-based company that builds software packages, provides customized solutions, and analyzes omics datasets to understand the molecular basis of cellular phenotypes.",
+      "tasks": [
+        "Contributed to an internal dashboard that enables data scientists to visualize large omics datasets with ease.",
+        "I worked extensively with various charting libraries such as D3.js and Plotly.js to create dynamic and visually appealing charts for scientists to visualize large omics datasets.",
+        "Created common private NPM packages, which were shared across the development team to improve efficiency and save development time."
+      ]
+    },
+    {
+      "role": "Founder",
+      "company": "DroidTechKnow",
+      "company_link": "https://www.droidtechknow.com/",
+      "location": "Delhi, India",
+      "start_date": "May, 2017",
+      "end_date": "Present",
+      "about_company": "DroidTechKnow is a Blogging Website that provides tech-based articles to its readers.",
+      "tasks": [
+        "DroidTechKnow was originally a solo project, created and managed entirely by myself. During the initial stages, I personally authored all the articles on the blog.",
+        "Continuously enhance our platform with innovative features that aid in expanding our readership.",
+        "We attract around 50K users organically who appreciate our engaging articles."
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "collage": "University School Of Information and Communication Technology",
+      "course": "Bachelor of Technology",
+      "stream": "Computer Science",
+      "location": "Delhi, India",
+      "year": "08/2013 - 05/2017"
+    }
+  ],
+  "skills": {
+    "softskills": [
+      { "name": "Flexible", "rating": 5, "logo": "html-logo.png" },
+      { "name": "Self-motivated", "rating": 5, "logo": "html-logo.png" },
+      { "name": "Good communicator", "rating": 5, "logo": "html-logo.png" },
+      { "name": "Critical Observer", "rating": 5, "logo": "html-logo.png" },
+      { "name": "Good Learner", "rating": 5, "logo": "html-logo.png" }
     ],
-    "work_experience": [
-        {
-            "role": "Senior Frontend Developer",
-            "company": "Acko General Insurance",
-            "company_link": "https://www.acko.com/",
-            "location": "Bangalore, India",
-            "start_date": "December, 2021",
-            "end_date": "Present",
-            "about_company": "Acko is an insurance company that provides health insurance, auto insurance, and electronics insurance.",
-            "tasks": [
-                "Worked on Acko's customer-facing web app where I enabled new users to enrol their self in the system",
-                "Developed an internal dashboard to create new policy plans, add-ons, covers, etc. Also, the dashboard is responsible for any kind of endorsement."
-            ]
-        },
-        {
-            "role": "Frontend Developer",
-            "company": "Paytm",
-            "company_link": "https://www.paytm.com/",
-            "location": "Noida, India",
-            "start_date": "July, 2019",
-            "end_date": "December, 2021",
-            "about_company": "Paytm is a fin-tech company that caters to all your cash needs in a digital world along with shopping, travel booking, etc.",
-            "tasks": [
-                "Migrated the entire 24*7 support vertical codebase to ReactJs.",
-                "Developed and Maintained the support section for Android and iOS apps both as the code runs in Webviews.",
-                "Integrated the Freshworks chatbot in the Paytm App to handle user queries."
-            ]
-        },
-        {
-            "role": "Software Engineer",
-            "company": "Elucidata",
-            "company_link": "https://www.elucidata.io/",
-            "location": "Delhi, India",
-            "start_date": "June, 2017",
-            "end_date": "July, 2019",
-            "about_company": "Elucidata is a product-based company that builds software packages, provides customized solutions, and analyzes omics datasets to understand the molecular basis of cellular phenotypes.",
-            "tasks": [
-                "Worked on an application called Polly for data scientists to visualize large omics datasets.",
-                "Created common private NPM packages for internal usage of the developers to save time."
-            ]
-        },
-        {
-            "role": "Founder",
-            "company": "DroidTechKnow",
-            "company_link": "https://www.droidtechknow.com/",
-            "location": "Delhi, India",
-            "start_date": "May, 2017",
-            "end_date": "Present",
-            "about_company": "DroidTechKnow is a Blogging Website that provides tech-based articles to its readers.",
-            "tasks": [
-                "Developed this website from the scratch in JavaScript, MySQL, and PHP in 2017. Now I am getting around 30k organic traffic per month."
-            ]
-        }
-    ],
-    "educations": [
-        {
-            "collage": "University School Of Information and Communication Technology",
-            "course": "Bachelor of Technology",
-            "stream": "Computer Science",
-            "location": "Delhi, India",
-            "year": "08/2013 - 05/2017"
-        }
-    ],
-    "skills": [
-        { "name": "HTML / HTML5", "rating": 5, "logo": "html-logo.png" },
-        { "name": "CSS / CSS3 / SCSS", "rating": 5, "logo": "css-logo.png" },
-        { "name": "JavaScript", "rating": 5, "logo": "javascript-logo.svg" },
-        { "name": "ReactJs", "rating": 5, "logo": "react-logo.png" },
-        { "name": "Git", "rating": 5, "logo": "git-logo.png" },
-        { "name": "Data Structure & Algorithms", "rating": 4, "logo": "dsa-logo.svg" },
-        { "name": "NextJs", "rating": 3, "logo": "nextjs-logo.png" },
-        { "name": "Node.js / Express.js", "rating": 3, "logo": "node-js-logo.png" },
-        { "name": "Angular", "rating": 2, "logo": "angularJS-logo.svg" },
-        { "name": "PHP", "rating": 2, "logo": "php-logo.png" },
-        { "name": "MySQL", "rating": 2, "logo": "mysql-logo.png" },
-        { "name": "MongoDB", "rating": 2, "logo": "mongodb-icon.png" }
-    ],
-    "achievements": [
-        {
-            "name": "DroidTechKnow",
-            "description": "Own a technical youtube channel named DroidTechKnow in which I upload tech-related videos for a youtube audience. I have 7K subscribers with around 3M total views."
-        },
-        {
-            "name": "Medium Writer",
-            "description": "I am a writer and wrote many tech articles on Medium and freecodecamp(The most popular publication of Medium)"
-        }
-    ],
-    "toole_and_libraries": ["Yeoman (Code Generator)", "PotlyJs", "Docker", "Gulp", "Npm", "Webpack", "Jasmine", "Firebase", "Wordpress"]
+    "techskills": [
+      { "name": "HTML / HTML5", "rating": 5, "logo": "html-logo.png" },
+      { "name": "CSS3 / SCSS", "rating": 5, "logo": "css-logo.png" },
+      { "name": "JavaScript", "rating": 5, "logo": "javascript-logo.svg" },
+      { "name": "TypeSript", "rating": 5, "logo": "javascript-logo.svg" },
+      { "name": "ReactJs", "rating": 5, "logo": "react-logo.png" },
+      { "name": "NextJs", "rating": 3, "logo": "nextjs-logo.png" },
+      {
+        "name": "Node.js / Express.js",
+        "rating": 3,
+        "logo": "node-js-logo.png"
+      },
+      { "name": "Angular", "rating": 2, "logo": "angularJS-logo.svg" },
+      { "name": "PHP", "rating": 2, "logo": "php-logo.png" },
+      { "name": "MySQL", "rating": 2, "logo": "mysql-logo.png" },
+      { "name": "MongoDB", "rating": 2, "logo": "mongodb-icon.png" },
+      { "name": "Git", "rating": 5, "logo": "git-logo.png" },
+      {
+        "name": "Data Structure & Algorithms",
+        "rating": 4,
+        "logo": "dsa-logo.svg"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "ABHA (Ayushman Bharat Health Account)",
+      "company": "Acko General Insurance",
+      "dated": "Aug, 2023 - Nov, 2023",
+      "description": "Successfully integrated the ABHA (Ayushman Bharat Health Account) feature into Acko's mobile applications, facilitating seamless creation of ABHA IDs for end users."
+    },
+    {
+      "name": "Help and support",
+      "company": "Paytm",
+      "dated": "Sep, 2019 - Dec, 2021",
+      "description": "I was a member of the Paytm 24/7 Help vertical team, where I contributed to the development of the Paytm help support system for end customers on both iOS and Android platforms"
+    }
+  ],
+  "achievements": [
+    {
+      "name": "DroidTechKnow",
+      "description": "Founder and content creator for droidtechknow.com, a thriving technical YouTube channel. Delivering engaging tech-related content, the channel boasts a subscriber base of 7K and has garnered over 3 million total views."
+    },
+    {
+      "name": "Medium Writer",
+      "description": "I am a blogger and contributed various tech articles featured on prominent platforms such as Medium and FreeCodeCamp, the most popular publication on Medium"
+    }
+  ],
+  "toole_and_libraries": [
+    "AWS",
+    "Yeoman (Code Generator)",
+    "PotlyJs",
+    "Docker",
+    "Gulp",
+    "Npm",
+    "Webpack",
+    "Jasmine",
+    "Firebase",
+    "Wordpress"
+  ]
 }

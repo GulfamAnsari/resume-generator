@@ -11,11 +11,13 @@ html {
 
 :root {
     --main-color: #f09548;
-    --text-color: #437f8b;
+    --text-color: #157c91;
     --secondary-color: rgb(79, 79, 79);
     --bold: rgb(18, 17, 17);
     --link-color: rgb(37, 36, 36);
     --anchor-color: rgb(92, 92, 92);
+    --conpany-color: #982f0e;
+    --heading-background: #95e7f6;
 }
 
 h1,
@@ -46,6 +48,7 @@ body {
 }
 
 .heading {
+    display: flex;
     flex-direction: column;
 }
 
@@ -53,7 +56,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 8px 0;
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     width: 40%;
     flex-direction: column;
 }
@@ -89,8 +92,8 @@ body {
 
 .position {
     color: var(--bold);
-    margin: 0;
-    line-height: 1.3rem;
+    margin: 4px 0 0 0;
+    line-height: 1.1rem;
 }
 
 .summary {
@@ -98,7 +101,7 @@ body {
 }
 
 .experience {
-    margin: 30px 0 0 0;
+    margin: 24px 0 0 0;
 }
 
 .educationContainer,
@@ -106,7 +109,7 @@ body {
     margin: 16px 0 0 0;
 }
 .achievements, .tools-and-library {
-    margin: 24px 0 0 0;
+    margin: 16px 0 0 0;
 }
 
 .summaryHeading,
@@ -114,23 +117,26 @@ body {
 .educationHeading,
 .skillsHeading,
 .achievementsHeading, .toolsHeading {
-    color: var(--text-color);
+    /* color: var(--text-color); */
+    padding: 0 4px;
     margin-bottom: 8px;
-    line-height: 0.8rem;
+    /* line-height: 0.8rem; */
     font-size: 1.4rem;
+    font-weight: 600;
+    background-color: var(--heading-background);
 }
 
 .summaryText {
-    margin: 8px 0;
+    margin: 6px 0 0 0;
     color: var(--bold);
     font-size: 0.8rem;
     line-height: 1.1rem;
 }
 
 .hr {
-    margin: 12px 0;
+    /* margin: 12px 0 6px 0; */
     background-color: var(--text-color);
-    height: 1px;
+    /* height: 1px; */
 }
 
 .companies,
@@ -140,6 +146,43 @@ body {
     flex-wrap: wrap;
 }
 
+.skillNormal {
+    color: var(--anchor-color);
+    font-size: 0.9rem;
+    margin: 4px 0;
+}
+
+.skillNormal div {
+    margin: 2px 0;
+}
+
+.skillNormal div span
+{
+    border: solid 1px var(--text-color);
+    border-radius: 17px;
+    padding: 0 8px;
+    margin: 0 2px;
+    display: inline-block;
+}
+
+
+
+.__advance_right_section  .skillNormal  div  span {
+    margin: 0 4px 4px 0;
+    background: #437f8b;
+    border: solid 1px #2e5860;
+    color: white;
+}
+
+.skillNormal div span:first-child {
+    font-weight: 600;
+    /* font-size: 1rem; */
+    color: var(--bold);
+    border: none;
+    width: 220px;
+    display: inline-block;
+    background: transparent;
+}
 .company,
 .education {
     width: 100%;
@@ -148,11 +191,21 @@ body {
     margin: 0 0 12px 0;
 }
 
+.company:last-child,
+.education:last-child {
+    margin: 0;
+}
+
 .company a,
 .education a {
     text-decoration: none;
     color: var(--anchor-color);
     font-size: 0.9rem;
+}
+
+.company a {
+    color: var(--conpany-color);
+    font-weight: 600;
 }
 
 .date {
@@ -176,17 +229,20 @@ body {
 
 .company ul {
     margin: 8px 0 0 0;
+    padding: 0 0 0 32px;
 }
 
 .company ul li {
     color: var(--bold);
     font-size: 0.7rem;
-    line-height: 1rem;
+    /* font-style: italic; */
+    line-height: 0.9rem;
+    margin: 2px 0;
 }
 
 .location {
     font-size: 0.8rem;
-    color: var(--text-color);
+    color: var(--anchor-color);
     font-size: 0.7rem;
 }
 
@@ -225,16 +281,24 @@ body {
     margin: -0.05rem 0 0 0;
 }
 
-.achievementsContainer {
+/* .achievementsContainer {
     margin: 0 0 12px 0;
+} */
+
+.achievementsContainer:last-child {
+    margin-bottom: 0;
 }
 
 .achievementName {
-    margin: 0;
+    margin: 6px 0 0 0;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
+
 .achievementsDes {
     font-size: 0.75rem;
-    line-height: 0.9rem;
+    line-height: 1.1rem;
+    /* font-style: italic; */
 }
 
 .tAndL {
@@ -249,11 +313,11 @@ body {
 
 .__MODERN_section {
     display: flex;
-gap: 30px;
+    gap: 5%;
 }
 
 .__MODERN_left_section {
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
@@ -262,4 +326,72 @@ gap: 30px;
     width: 40%;
     display: flex;
     flex-direction: column;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    margin: 6px 8px 0 0;
+}
+.name {
+
+}
+
+.skill_advance {
+    display: inline-block;
+    margin: 1px 2px;
+    border: solid 1px var(--text-color);
+    background-color: var(--text-color);;
+    color: white;
+    border-radius: 4px;
+    padding: 0 8px;
+    font-size: 0.8rem;
+}
+
+/* --------------Advance resume --- */
+.advanceskillContainer {
+    display: inline-block;
+    margin: 2px 3px;
+    border: solid 1px var(--text-color);
+    background-color: var(--text-color);
+    color: white;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 0.8rem;
+}
+
+.advancetoolsBox {
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    color: var(--bold);
+    margin: 6px 0 0 0;
+}
+
+.advance_company {
+    font-size: 0.9rem;
+    color: var(--conpany-color);
+}
+
+
+.advance {
+    flex-direction: column;
+    text-align: center;
+}
+
+.advance .infoLinksContainer {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.advance .position {
+    margin: 0;
+}
+
+.advance .infoLinks {
+    padding: 0 0 0 8px;
+    font-size: 0.75rem;
+}
+
+.advance .infoLinks:first-child {
+    padding: 0;
 }
